@@ -3,7 +3,7 @@
 The main motivation behind this was to save some clicks, as Windows prompts a confirmation dialog every time you try to change a file’s extension (e.g., when starting with an empty .txt file that you want to rename and change the extension).
 
 After checking some on-line solutions to create a registry entry for a Empty File without any extension in windows, none of them really worked.
-Then I got the idea to trying to to create a registry entry that would run a CMD command to create the file. 
+Then I got the idea to trying to to create a registry entry that would run a CMD command to create the file. It works!
 
 ## Images
 
