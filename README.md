@@ -11,7 +11,7 @@ Add 'Create Empty File' option to Windows Explorer context menu:
 
 ![image](https://github.com/user-attachments/assets/b1d8d6d4-baa6-4163-b8c8-55dfdc1c3c49)
 
-By clicking it, a single new file without extension is created:
+By clicking it, a single new file without extension is created. It is also possible to use it multiple times in the same folder:
 
 ![image](https://github.com/user-attachments/assets/70d44e6d-4024-4678-bd88-486188a62a6b)
 
