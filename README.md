@@ -17,4 +17,5 @@ By clicking it, a new file without extension is created:
 
 ## How to install
 Download the registry entry AddEmptyFile.reg here: https://github.com/matmtt/Win-Context-Menu-Empty-File-Without-Extension/blob/main/AddEmptyFile.Reg 
+
 After installing it, right click on the desired location and create the empty files.
