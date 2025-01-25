@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; Adds context menu entry for a empty file
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Empty File]
+@="Empty File"
+"MUIVerb"="Create Empty File"
+
+; cmd command that creates the new file without an extension
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Empty File\command]
+@="cmd.exe /v:on /c \"set filename=%V\\NewFile & set count=0 & for /l %%i in (1,1,1000) do ( set newfile=!filename!_%%i & if not exist \"!newfile!\" ( echo. > \"!newfile!\" & exit ) )\""
